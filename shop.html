@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<title>HopsTea茶</title>
+</head>
+
+<body>
+	<video autoplay muted loop class="myVideo">
+		<source src="backgorund/Burning.webm" type="video/mp4">
+	</video>
+
+	<div class="modal" id="modal-one" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Купите пожалуйста</h2>
+				<a href="#close" class="btn-close" aria-hidden="true">×</a>
+			</div>
+			<div class="modal-body">
+				<p>Покупка</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#close" class="btn">Да</a>
+			</div>
+		</div>
+	</div>
+	<site-block>
+
+		<div class="site-block">
+			<header>
+				<div class="header">
+					<a class="logo" href="index.html"><img class="logo" src="site-contentimg/logo.png" /></a>
+					<a href="index.html" class="site-name">茶HopsTea茶</a>
+
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="shop.html">Магазин</a>
+							<ul>
+								<li><a href="shop.html#tea">Чай</a></li>
+								<li><a href="shop.html#gift">Подарки</a></li>
+								<li><a href="shop.html#acces">Аксессуары</a></li>
+							</ul>
+						</li>
+						<li><a href="news.html">Новости</a></li>
+						<li><a href="About.html">О нас</a>
+							<ul>
+								<li><a href="About.html#philosophy">Философия</a></li>
+								<li><a href="About.html#factory">Производтсво</a></li>
+								<li><a href="Contact.html">Контакты</a></li>
+							</ul>
+						</li>
+						<li><a href="Contact.html">Контакты</a></li>
+					</ul>
+
+				</div>
+			</header>
+
+			<block-content>
+				<div class="block-content-shop glass">
+					<h1>Добро пожаловать в наш магазин!</h1>
+					<a name="tea">
+						<h1>Чай</h1>
+					</a>
+					<div class="showcase">
+
+						<div class="item">
+							<img src="shop\fruit-tea.png">
+							<h3>Фруктовый чай</h3>
+							<p>Чай с добавлением различных фруктов и прекрасным ароматом.</p>
+							<p>Цена: 7$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\green_tea.png">
+							<h3>Зелёный чай</h3>
+							<p>Изготовлен из свежих листьев чайного листа. Свежий и нежный вкус.</p>
+							<p>Цена: 10$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\black-tea.png">
+							<h3>Чёрный чай</h3>
+							<p>Изготовлен из листьев прошедших полную обработку. Обладает насыщенным ароматом и
+								утончённым вкусом. </p>
+							<p>Цена: 5$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\red-tea.png">
+							<h3>Красный чай</h3>
+							<p>Чай из листьев кустарника Ройбшу. Имеет нежный сладковатый вкус.</p>
+							<p>Цена:12$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+
+					</div>
+					<a name="gift">
+						<h1>Подарочные наборы</h1>
+					</a>
+					<div class="showcase">
+
+						<div class="item">
+							<img src="shop\green-gift.png">
+							<h3>Стандартный набор</h3>
+							<p>Включает в себя чай 500 грамм и кружку.</p>
+							<p>Цена: 50$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\black-gift.png">
+							<h3>Большой набор</h3>
+							<p>Включает в себя10 видов редких чаев, высококачественный чайник из стекла и набор из 4
+								стильных чашек для чая.</p>
+							<p>Цена:75$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\wood-box.png">
+							<h3>Классический набор</h3>
+							<p>Включает в себя 5 видов лучших чаев весом по 100 грамм каждый деревянную коробку с
+								откидной крышкой.</p>
+							<p>Цена:90$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\big-tea.png">
+							<h3>Премиум набор</h3>
+							<p>Набор со всеми сортами и товарами компании.</p>
+							<p>Цена:100$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+
+					</div>
+					<a name="acces">
+						<h1>Аксессуары</h1>
+					</a>
+					<div class="showcase">
+						<div class="item">
+							<img src="shop\cup.png">
+							<h3>Кружка</h3>
+							<p>Фарфоровая кружка 600 мл с рисунком.</p>
+							<p>Цена: 10$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\thermos.webp">
+							<h3>Термос</h3>
+							<p>Термос в железном корпусе с рисунком 700 мл.</p>
+							<p>Цена: 30$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\figure.png">
+							<h3>Фигурка</h3>
+							<p>Пластиковая фигурка на память 15 на 15 см.</p>
+							<p>Цена: 15$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+						<div class="item">
+							<img src="shop\Teapot.png">
+							<h3>Заварной чайник</h3>
+							<p>Фаянсовый чайник ручной работы.</p>
+							<p>Цена: 200$</p>
+							<form action="#modal-one">
+								<button>
+									<h3>Купить</h3>
+								</button>
+						</div>
+
+					</div>
+				</div>
+
+			</block-content>
+
+			<footer>
+				<div class="footer glass">
+					<p>&copy 2023 Германов В.М.</p>
+				</div>
+			</footer>
+
+		</div>
+	</site-block>
+</body>
+
+</html>
